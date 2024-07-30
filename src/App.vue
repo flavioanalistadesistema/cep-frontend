@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/tradeupgroup_logo.jpeg" />
+  <app-form-cpf msg="Bem vindo - API cep" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormCpf from "./components/FormCpf.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    "app-form-cpf": FormCpf,
+  },
+};
 </script>
 
 <style>
